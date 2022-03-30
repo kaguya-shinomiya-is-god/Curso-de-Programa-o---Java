@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Atividade01 {
 
    /* Sobre mim:
    Meu nome e Enzo Rangel Dias Lima, tenho 14 e curto muito jogar e tecnologias eletronicas em geral, porem sou mais chegado a
