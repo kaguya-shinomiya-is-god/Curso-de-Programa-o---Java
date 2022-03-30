@@ -1,0 +1,5 @@
+public class informacoesobregabrielle {
+    public static void main (String[] args){
+System.out.println("Sou Gabrielle, tenho 16 anos, gosto muito de ler, escutar músicas e aprender coisas diferentes. Participei da temporada 2021/2022 da FLL e considero que essa foi uma das melhores experiências da minha vida, já que foi quando eu verdadeiramente descobri o que era trabalho em equipe e me tornei uma profissional graciosa (HEY!). Nasci em Salvador e gosto muito de viajar, mesmo nunca tendo saído da Bahia. Me interesso muito pelos estudos e valorizo bastante o aprendizado, já que ele nunca poderá ser roubado de mim. Também valorizo os relacionamentos interpessoais, acho extremamente enriquecedora a troca de experiência que nos faz enxergar o ponto de vista de pessoas que estão inseridas em diferentes bolhas. Meu interesse por programação começou em 2020 e desde então tenho me dedicado ao estudo de diferentes linguagens por meio de cursos da internet e pelo curso que estou fazendo no SENAI.");
+    }
+}
