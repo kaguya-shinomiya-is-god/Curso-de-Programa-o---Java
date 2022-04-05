@@ -10,14 +10,15 @@ public static void main(String[] args) {
         double num = input.nextDouble();
         double fib1 = Math.pow((1 + Math.sqrt(5)) / 2,num);
         double fib2 = Math.pow((1 - Math.sqrt(5)) / 2,num);
-        double fibf = ( fib1- fib2 ) / Math.sqrt(5);
-        System.out.println("O valor de fibonacci é: " + fibf);
+        double fibF = ( fib1- fib2 ) / Math.sqrt(5);
+        System.out.println("O valor de fibonacci é: " + fibF);
         */
 
         // Numero maximo numero minimo (quis não usar o Math.max pq não teria graça)
         
         /*
-        System.out.println("Bem vindo ao medidor de tamanho! De números");
+        System.out.println("Bem vindo ao medidor de números :)");
+        System.out.println("INSIRA APENAS NÚMEROS!");
         System.out.println("Insira o primeiro valor:");
         // Primeiro número
         double a = input.nextDouble();
@@ -46,7 +47,7 @@ public static void main(String[] args) {
 
         temp = a; //Aqui atribuimos o valor de "a" a variavel "temp"
         a = b; //Aqui deletamos o valor atribuido anteriormente a "a", colocando o valor de b no lugar
-        b = temp; //Aqui pegamos o valor de "b" e deletando, colocando o valor de temp, variavel que tinha armazenado o valor de "a"
+        b = temp; //Aqui pegamos o valor de "b" e deletamos, colocando o valor de temp, variavel que tinha armazenado o valor de "a"
         System.out.println("Resultados: ");
         System.out.println("Primeiro valor: " + a);
         System.out.println("Segundo valor: " + b);
