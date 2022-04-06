@@ -43,6 +43,48 @@ public static void main(String[] args) {
         a = input.nextLine(); //Input do primeiro elemento
         System.out.println("Escolha o segundo elemento a ser invertido: ");
         b = input.nextLine(); //Input do segundo elemento
+        
+        // Calculadoraaa
+
+        double a,b,end;
+        String op;
+
+        System.out.println("Bem vindo a calculadoraaa");
+        System.out.println("Escolha o primeiro número a calcular");
+        a = input.nextDouble();
+
+        System.out.println("Escreva o segundo número a calcular");
+        b = input.nextDouble();
+
+        System.out.println("Escreva que operação você ira utilizar:");
+        System.out.println("Opções: adição, subtração, mutiplicação, divisão, divisão com resto");
+        op = input.next();
+        
+        switch(op){
+            case "adição":
+            end = a + b;
+            System.out.println("Resultado:" + end);
+            break;
+            case "subtração":
+            end = a - b;
+            System.out.println("Resultado:" + end);
+            break;
+            case "mutiplicação":
+            end = a * b;
+            System.out.println("Resultado:" + end);
+            break;
+            case "divisão com resto":
+            System.out.println("Resultado do resto" + a % b);
+            case "divisão":
+            end = a / b;
+            System.out.println("Resultado:" + end);
+            break;
+            case default: //ta dando o erro ( The preview feature Pattern Matching in Switch is only available with source level 17 and aboveJava(4195409))
+            
+            System.out.println("Erro, por favor reinicie");
+            break;
+            
+        }
 
         temp = a; //Aqui atribuimos o valor de "a" a variavel "temp"
         a = b; //Aqui deletamos o valor atribuido anteriormente a "a", colocando o valor de b no lugar
